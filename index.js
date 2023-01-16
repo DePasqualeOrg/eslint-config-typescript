@@ -10,5 +10,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/lines-between-class-members': ['off'],
     'import/extensions': ['off'],
+    '@typescript-eslint/no-throw-literal': 'off',
   },
 };
