@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    '@depasquale/eslint-config',
     'eslint-config-airbnb-typescript/base',
+    '@depasquale/eslint-config',
   ],
   plugins: [
     '@typescript-eslint',
@@ -16,11 +16,12 @@ module.exports = {
       {
         selector: 'variable',
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
-        'leadingUnderscore': 'allow',
+        leadingUnderscore: 'allow',
       },
       {
         selector: 'function',
         format: ['camelCase', 'PascalCase'],
+        leadingUnderscore: 'allow',
       },
       {
         selector: 'typeLike',
