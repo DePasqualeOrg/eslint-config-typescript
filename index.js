@@ -28,5 +28,6 @@ module.exports = {
         format: ['PascalCase'],
       },
     ],
+    'no-underscore-dangle': ['off'],
   },
 };
