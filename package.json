@@ -1,6 +1,6 @@
 {
   "name": "@depasquale/eslint-config-typescript",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "ESLint configuration for TypeScript projects",
   "author": "Anthony DePasquale (anthony@depasquale.org)",
   "main": "index.js",
