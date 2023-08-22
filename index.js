@@ -28,6 +28,7 @@ module.exports = {
         format: ['PascalCase'],
       },
     ],
-    'no-underscore-dangle': ['off'],
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'warn',
   },
 };
