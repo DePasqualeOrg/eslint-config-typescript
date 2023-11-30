@@ -30,6 +30,6 @@ module.exports = {
     ],
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'warn',
-    '@typescript-eslint/no-unused-vars': ['error', { 'argsIgnorePattern': '^_' }],
+    '@typescript-eslint/no-unused-vars': ['error', { 'varsIgnorePattern': '^_', 'argsIgnorePattern': '^_', 'caughtErrorsIgnorePattern': '^_', 'destructuredArrayIgnorePattern': '^_', }],
   },
 };

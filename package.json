@@ -1,6 +1,6 @@
 {
   "name": "@depasquale/eslint-config-typescript",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "ESLint configuration for TypeScript projects",
   "author": "Anthony DePasquale (anthony@depasquale.org)",
   "main": "index.js",
@@ -24,7 +24,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@depasquale/eslint-config": "^0.0.13",
+    "@depasquale/eslint-config": "^0.0.14",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0"
   },
